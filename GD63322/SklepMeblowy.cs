@@ -12,6 +12,11 @@
         public bool Dostepnosc(int wartosc)
         {
             return wartosc >= 0 && wartosc < 13;
+        } 
+        
+        public override string Info()
+        {
+            return base.Info() + "; klasa: " + this.klasa;
         }
     }
 }

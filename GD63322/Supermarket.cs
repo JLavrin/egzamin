@@ -15,6 +15,11 @@
                 return "Promocja 25%";
             return "Brak promocji";
         }
+
+        public override string Info()
+        {
+            return base.Info() + "; siec: " + this.siec;
+        }
         
     }
 }

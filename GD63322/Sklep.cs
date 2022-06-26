@@ -13,7 +13,7 @@ namespace GD63322
             this.iloscTowarow = iloscTowarow;
         }
 
-        public string Info()
+        public virtual string Info()
         {
             return "Adres: " + this.adres + "; liczba towarow: " + this.iloscTowarow;
         }
